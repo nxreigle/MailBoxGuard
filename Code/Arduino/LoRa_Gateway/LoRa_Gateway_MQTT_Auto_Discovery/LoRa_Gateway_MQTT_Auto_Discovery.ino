@@ -29,10 +29,12 @@ String LowBatteryCode = "REPLACE_WITH_LOW_BATTERY_CODE"; // For Example "0xLBAT"
 
 // IMPORTANT: Set TransmitBattPercent to 1 in the Sensor Config!
 
-String bat_val = "";
-String received_code = "";
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+String bat_val = "";
+String received_code = "";
 
 String recv;
 int count = 0;
